@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', light;
+}
+html{
+    scroll-behavior: smooth;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.p-5{
+    padding: 4% 0;
+}
+.text-white{
+    color:white;
+}
+.text-black{
+    color: black;
+}
+.bg-dark{
+    background-color: #343A40;
+}
+.bg-white{
+    background-color: whitesmoke;
+}
+.orange{
+    color:#FF4500;
+}
+.container{
+
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: auto;
+    
+}
+.d-inline-block{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #FF4500;
+    margin: 0px 10px;
+}
+i{
+    color: rgb(255, 136, 0);
+    margin-left: 9px;
+}
+body{
+    background-color: #010101a6;
+}
+.iconz{
+    margin-bottom: 2%;
+}
+    /* .card2{
+        margin:0 3%;
+    } */
+.card{
+    margin-top: 2%;
+    width: 33%;
+   color: white;
+   background-color: #253B6E;
+   border: solid transparent;
+   border-radius: 9px;
+}
+.card-head{
+    padding: 4% 0;
+}
+.card-img{
+    position: relative;
+    overflow: hidden;
+}
+.card-img img{
+    width: 100%;
+    
+    display: block;
+    position: relative;
+ 
+}
+
+.card-rounded img{
+   width: 20%;
+    border:2px solid transparent;
+    border-radius: 50%;
+    position:absolute;
+    top: 70%;
+    left:80%
+   
+}
+.card-headline{
+    padding: 0 1%;
+    width: 90%;
+    
+}
+.card-headline h4 , p{
+    padding:4% 0;
+    margin-left: 6%;
+}
+
+.card-img:hover .hoveer{
+  visibility: visible;
+  color: #FF4500;
+  top: 0%;
+  transition: all 0.4s;
+ 
+  
+}
+.hoveer{
+    width: 100%;
+    height: 100%;
+    padding: 24% 0;
+    background-color: #010101a6;
+    position:absolute ;
+    top: 100%;
+    text-align: center;
+    visibility: hidden;
+}
+.hoveer p{
+    margin-top: 19%;
+}
+
