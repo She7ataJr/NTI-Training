@@ -1,0 +1,371 @@
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',light;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+nav{
+    padding: 1% 0;
+}
+.container{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: auto;
+}
+.bg-dark{
+    background-color: #343A40;
+}
+.bg-light{
+    background-color: #F6F5F4;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #FFCC01;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.d-flex{
+    display: flex;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+button:hover{
+    background-color: rgb(181, 54, 54) !important;
+    color: white;
+    transition: all 1s;
+}
+
+/* Global style end */
+/* navbar start */
+nav{
+    padding: 3% 0;
+}
+.log button{
+    background-color:#FFCC01;
+    padding: 3% 6%;
+    border: none;
+    border-radius: 3px;
+}
+.log h5{
+margin: 0% 17%;
+}
+/* Navbar end */
+.home-page .container{
+    position: relative;
+}
+.header-caption{
+    position: absolute;
+    top: 20%;
+    width: 28%;
+
+}
+.header-caption h2{
+    font-size: 35px;
+
+}
+.header-caption input{
+    background-color: #F8F9FA;
+    color: silver;
+    padding: 4%;
+    border: none;
+}
+.header-caption button{
+    padding: 4% 7%;
+    background-color:  #FFCC01;
+    border: none;
+}
+.header-img{
+    margin-left: 20%;
+}
+.upside-down{
+    
+    width: 11%;
+    position: absolute;
+    bottom: 11%;
+    left: 0%;
+    transform: rotate(90deg);
+    color: silver;
+}
+/* Home End */
+/* about Start */
+#about{
+    margin-top:5%
+}
+.sec1{
+    width: 45%;
+  
+}
+.sec1 h2{
+    font-size: 36px;
+}
+.sec1 p{
+    color: silver;
+}
+.sec2{
+    width: 45%;
+  
+}
+.cards-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 38%;
+    text-align: center;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+    padding: 5% 3%;
+}
+.card p{
+    color: silver;
+    font-size: 20px;
+}
+/* about End */
+/* Apartment start */
+#apartments{
+    padding: 4% 0;
+}
+.text-head{
+    padding: 5% 0;
+    width: 21%;
+}
+.cards-container{
+    padding:2% 0% ;
+}
+.rent-card{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.rent-caption{
+    padding: 7% 0;
+    text-align: center;
+}
+.rent-price{
+    padding: 4% 0;
+    
+}
+
+.price{
+    width: 40%;
+}
+.price-icon{
+    width: 17%;
+    
+}
+.btns{
+    padding: 2% 0;
+    justify-content: center;
+}
+.btns button{
+    padding: 6% 13px;
+    background-color:  #FFCC01;
+    border: none;
+    border-radius:3px ;
+}
+/* apartment end */
+/* How it works start */
+#howItWorks{
+    padding: 3% 0;
+}
+.headline{
+    width: 39%;
+}
+.headline h3{
+    padding: 2% 0;
+    font-size: 40px;
+}
+#howItWorks .cards-container{
+    padding: 5% 0;
+}
+#howItWorks .card{
+    overflow: hidden;
+    position: relative;
+    padding: 2%;
+    width: 25%;
+    background: #FFCC01;
+}
+
+#howItWorks .card h1{
+    position: absolute;
+    /* top: 0%; */
+    right: 83%;
+    bottom: 81%;
+    font-size: 50px;
+}
+.kalam{
+    margin-top: 14%;
+}
+#howItWorks a{
+    text-decoration: underline;
+}
+#howItWorks a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* how it works End */
+/* Services Satrt */
+#service p{
+    color: silver;
+}
+.buliding{
+    width: 45%;
+}
+.service-text{
+    width: 45%;
+}
+.p-5{
+    padding: 5% 0;
+}
+.pb-5{
+    padding-bottom:16% ;
+}
+/* Services End */
+/* Agents start */
+.agent-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.agent-text{
+    padding: 2%;
+}
+.kalemat{
+    width: 35%;
+}
+.agent-card-caption{
+    margin-left: 2%;
+}
+.icoonz{
+    width: 35%;
+}
+.icoonz i{
+    margin-left:15% ;
+}
+/* agent end */
+/* Section full of img */
+.buliding{
+    width: 45%;
+    position: relative;
+}
+.buliding-text {
+    width: 45%;
+}
+.buliding-text button{
+    padding: 3% 10%;
+    font-size: 18px;
+    margin-top: 10%;
+    background: teal;
+    color: white;
+    border: none;
+    border-radius:3px ;
+}
+.post{
+    padding: 3%;
+    width: 70%;
+    background-color: #FFCC01;
+    position: absolute;
+    top: 84%;
+    right: 13%;
+}
+.post1{
+    padding: 3%;
+    width: 70%;
+    background-color: #FFCC01;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+}
+
+.mini-container i{
+    font-size: 36px;
+    color: white;
+}
+.mini-container{
+    padding: 3% 0;
+}
+/* footer start */
+footer{
+    background-color: teal;
+    color: white;
+}
+footer .head-contact h2{
+    font-size: 36px;
+}
+
+footer input{
+    border: none;
+    border-bottom: 2px solid silver;
+    /* padding: 17% 57%; */
+   
+}
+.div{
+    margin-top: 2%;
+}
+input{
+    width: 100%;
+    padding: 4%;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+}
+hr{
+    height: 2px;
+    color: white;
+}
+.p2
+{
+    padding: 2% 0;
+}
+footer h4{
+    padding-bottom:19% ;
+    font-size: 20px;
+}
+footer p{
+    padding-top: 19%;
+}
+.cap a{
+    color: white;
+}
+.cap a:hover{
+    color: #FFCC01;
+}

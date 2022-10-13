@@ -1,0 +1,49 @@
+/* global rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+.cards-container{
+    width: 50%;
+    height: 150px;
+    background-color: aqua;
+    position: relative;
+    perspective: 700px;
+  
+    
+    /* transform-origin: top center; */
+    
+}
+.card{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.front {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position:absolute;
+    top: 0;
+    backface-visibility: hidden;
+   
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+.cards-container:hover .card{
+    transform: rotateY(-180deg);
+}
+.back{
+    transform: rotateY(180deg);
+}
