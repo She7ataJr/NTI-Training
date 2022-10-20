@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',light;
+}
+html{
+    scroll-behavior: smooth;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header p{
+    margin-bottom: 0;
+}
+header {
+    font-size: 18px;
+}
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+    display: block !important;
+    transform: translateX(0px);  
+}
+.dropdown-menu{
+     visibility: hidden;
+    border: none;
+   display: block;
+   transform: translateX(-20px);
+   transition: 0.1s;
+}
+.dropdown-menu li{
+    border-bottom:2px solid silver ;
+}
+.custom{
+    width: 800px;
+    right: 0;
+}
+/* Carousel  */
+.carousel-indicators{
+    flex-direction: column;
+    left: 75%;
+    bottom: calc(50% - 55px);
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+}
+.carousel-caption{
+    bottom: auto;
+    right: auto;  
+}
+.btn0{ 
+    
+    padding: 9px 20px;
+    font-size: 22px;
+    border: 2px solid transparent;
+    background: #2b69da;
+}
+.btn0::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right:118%;
+    background-color:white;
+    opacity: 0.4;
+    width: 50px;
+    height: 80px;
+    transition: all 1s;
+    transform: skew(135deg); 
+}
+.btn0:hover::before{
+    transform: skew(-25deg);
+    width: 100px;
+}
+.btn1{ 
+    border-radius: 20px;
+    padding: 9px 43px;
+    font-size: 22px;
+    border: 2px solid white;
+    background: transparent;
+    transition: all 2s;
+}
+.btn1::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right:118%;
+    background-color:white;
+    opacity: 0.4;
+    width: 50px;
+    height: 80px;
+    transition: all 1s;
+    transform: skew(135deg); 
+}
+.btn1:hover::before{
+   transform: skew(45deg);
+    transition: all 1s;
+}
+.btn1:hover{
+    background-color:#2b69da ;
+    border: 2px solid #2b69da;
+}
+/* button of Carousel */
+.carousel-indicators button{
+    background:white !important;
+    border-color: white !important;
+    border: 2px solid transparent  !important;
+    margin: 10px !important;
+}
+.carousel-indicators button.active{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+/* end of Carousel */
+/* About Section */
+.custom-hr{
+    /* border: 15px solid blue;
+    background-color: blue;
+    opacity: 1; */
+
+}
+.icon{
+    font-size: 29px;
+    border: none;
+    border-right: 1px solid lightgray;
+    width: 20%;
+    color: grey;
+}
+.icon:hover{
+    color: #2b69da;
+}
+.captions:hover{
+    color: #2b69da;
+}
+.zorar{
+    border-radius: 20px;
+    padding: 9px 43px;
+    font-size: 22px;
+    border: 2px solid white;
+    background-color:#2b69da ;
+    color: rgb(255, 255, 255);
+}
+.custom-cols{
+    top: 03%;
+    left: 1%;
+    z-index: 1;
+}
+#about p{
+    color: silver;
+}
+/* About section end */
+/* Counter Section start */
+#counter i{
+    font-size: 2rem;
+}
+/* Counter section End */
+/* Service Start */
+#services i{
+    font-size: 50px;
+}
+.caption-hide{
+    
+    top: 100%;
+    left: 0;
+    background: white;
+    color: black;
+    transition: all 0.5s;
+   
+
+}
+
+.service-card:hover .caption-hide{
+    display: block;
+    top: 0;
+  
+}
+/* Service End */
+/* Our Work Start */
+a{
+    text-decoration: none;
+}
+
+.work-hide{
+    top: 75%;
+    left: 10%;
+    /* visibility: hidden; */
+    transform: scaleX(0); 
+    transition: all 0.5s;
+    
+    
+}
+.work-card:hover .work-hide{
+    visibility: visible;
+    transform: scaleX(1);
+    
+}
+.work-card:hover{
+    box-shadow: 0 0 15PX 0 grey;
+}
+/* work end */
+/* .image{
+    background-image: url(../images/ecommerce-cover-2-300x176.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/*  */
+.headline h3::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background: #2b69da;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.headline h3::before{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background: #2b69da;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+
+.team-caption{
+    top: 80%;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 8px grey;
+    transition: all 1s;
+}
+.team-image:hover .team-caption{
+    top: 51%;
+}
+
+/* hover for icons to be lated */
+.social{
+ left: 12.5%;   
+ top: 140%;
+ transition: 1s;
+}
+.team-image:hover .social{
+    top: 101%;
+}
+.social i:hover{
+    color: black;
+}
+/* prices */
+.card-price i{
+    font-size: 1.3rem;
+    color: blue;
+}
