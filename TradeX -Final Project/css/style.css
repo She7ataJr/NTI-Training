@@ -1,202 +1,194 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI',light;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", light;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-header a{
-    color: white;
-    text-decoration: none;
+header a {
+  color: white;
+  text-decoration: none;
 }
-header p{
-    margin-bottom: 0;
+header p {
+  margin-bottom: 0;
 }
 header {
-    font-size: 18px;
+  font-size: 18px;
 }
-.dropdown:hover .dropdown-menu{
-    visibility: visible;
-    display: block !important;
-    transform: translateX(0px);  
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+  display: block !important;
+  transform: translateX(0px);
 }
-.dropdown-menu{
-     visibility: hidden;
-    border: none;
-   display: block;
-   transform: translateX(-20px);
-   transition: 0.1s;
+.dropdown-menu {
+  visibility: hidden;
+  border: none;
+  display: block;
+  transform: translateX(-20px);
+  transition: 0.1s;
 }
-.dropdown-menu li{
-    border-bottom:2px solid silver ;
+.dropdown-menu li {
+  border-bottom: 2px solid silver;
 }
-.custom{
-    width: 800px;
-    right: 0;
+.custom {
+  width: 800px;
+  right: 0;
 }
 /* Carousel  */
-.carousel-indicators{
-    flex-direction: column;
-    left: 75%;
-    bottom: calc(50% - 55px);
+.carousel-indicators {
+  flex-direction: column;
+  left: 75%;
+  bottom: calc(50% - 55px);
 }
-.carousel-indicators [data-bs-target]{
-    width: 15px;
-    height: 15px;
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
 }
-.carousel-caption{
-    bottom: auto;
-    right: auto;  
+.carousel-caption {
+  bottom: auto;
+  right: auto;
 }
-.btn0{ 
-    
-    padding: 9px 20px;
-    font-size: 22px;
-    border: 2px solid transparent;
-    background: #2b69da;
+.btn0 {
+  padding: 9px 20px;
+  font-size: 22px;
+  border: 2px solid transparent;
+  background: #2b69da;
 }
-.btn0::before{
-    content: "";
-    position: absolute;
-    top: 0%;
-    right:118%;
-    background-color:white;
-    opacity: 0.4;
-    width: 50px;
-    height: 80px;
-    transition: all 1s;
-    transform: skew(135deg); 
+.btn0::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 118%;
+  background-color: rgba(236, 220, 220, 0.897);
+  opacity: 0.4;
+  width: 50px;
+  height: 80px;
+  transition: all 1s;
+  transform: skew(135deg);
 }
-.btn0:hover::before{
-    transform: skew(-25deg);
-    width: 100px;
+.btn0:hover::before {
+  transform: skew(-25deg);
+  width: 100px;
 }
-.btn1{ 
-    border-radius: 20px;
-    padding: 9px 43px;
-    font-size: 22px;
-    border: 2px solid white;
-    background: transparent;
-    transition: all 2s;
+.btn1 {
+  border-radius: 20px;
+  padding: 9px 43px;
+  font-size: 22px;
+  border: 2px solid white;
+  background: transparent;
+  transition: all 2s;
 }
-.btn1::before{
-    content: "";
-    position: absolute;
-    top: 0%;
-    right:118%;
-    background-color:white;
-    opacity: 0.4;
-    width: 50px;
-    height: 80px;
-    transition: all 1s;
-    transform: skew(135deg); 
+.btn1::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 118%;
+  background-color: white;
+  opacity: 0.4;
+  width: 50px;
+  height: 80px;
+  transition: all 1s;
+  transform: skew(135deg);
 }
-.btn1:hover::before{
-   transform: skew(45deg);
-    transition: all 1s;
+.btn1:hover::before {
+  transform: skew(45deg);
+  transition: all 1s;
 }
-.btn1:hover{
-    background-color:#2b69da ;
-    border: 2px solid #2b69da;
+.btn1:hover {
+  background-color: #2b69da;
+  border: 2px solid #2b69da;
 }
 /* button of Carousel */
-.carousel-indicators button{
-    background:white !important;
-    border-color: white !important;
-    border: 2px solid transparent  !important;
-    margin: 10px !important;
+.carousel-indicators button {
+  background: white !important;
+  border-color: white !important;
+  border: 2px solid transparent !important;
+  margin: 10px !important;
 }
-.carousel-indicators button.active{
-    background-color: transparent !important;
-    border: 2px solid white !important;
+.carousel-indicators button.active {
+  background-color: transparent !important;
+  border: 2px solid white !important;
 }
 /* end of Carousel */
 /* About Section */
 .custom-hr{
-    /* border: 15px solid blue;
+  /* border: 15px solid blue;
     background-color: blue;
     opacity: 1; */
-
 }
-.icon{
-    font-size: 29px;
-    border: none;
-    border-right: 1px solid lightgray;
-    width: 20%;
-    color: grey;
+.icon {
+  font-size: 29px;
+  border: none;
+  border-right: 1px solid lightgray;
+  width: 20%;
+  color: grey;
 }
-.icon:hover{
-    color: #2b69da;
+.icon:hover {
+  color: #2b69da;
 }
-.captions:hover{
-    color: #2b69da;
+.captions:hover {
+  color: #2b69da;
 }
-.zorar{
-    border-radius: 20px;
-    padding: 9px 43px;
-    font-size: 22px;
-    border: 2px solid white;
-    background-color:#2b69da ;
-    color: rgb(255, 255, 255);
+.zorar {
+  border-radius: 20px;
+  padding: 9px 43px;
+  font-size: 22px;
+  border: 2px solid white;
+  background-color: #2b69da;
+  color: rgb(255, 255, 255);
 }
-.custom-cols{
-    top: 03%;
-    left: 1%;
-    z-index: 1;
+.custom-cols {
+  top: 3%;
+  left: 1%;
+  z-index: 1;
+  position: absolute;
 }
-#about p{
-    color: silver;
+#about p {
+  color: silver;
 }
 /* About section end */
 /* Counter Section start */
-#counter i{
-    font-size: 2rem;
+#counter i {
+  font-size: 2rem;
 }
 /* Counter section End */
 /* Service Start */
-#services i{
-    font-size: 50px;
+#services i {
+  font-size: 50px;
 }
-.caption-hide{
-    
-    top: 100%;
-    left: 0;
-    background: white;
-    color: black;
-    transition: all 0.5s;
-   
-
+.caption-hide {
+  top: 100%;
+  left: 0;
+  background: white;
+  color: black;
+  transition: all 0.5s;
 }
 
-.service-card:hover .caption-hide{
-    display: block;
-    top: 0;
-  
+.service-card:hover .caption-hide {
+  display: block;
+  top: 0;
 }
 /* Service End */
 /* Our Work Start */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.work-hide{
-    top: 75%;
-    left: 10%;
-    /* visibility: hidden; */
-    transform: scaleX(0); 
-    transition: all 0.5s;
-    
-    
+.work-hide {
+  top: 75%;
+  left: 10%;
+  /* visibility: hidden; */
+  transform: scaleX(0);
+  transition: all 0.5s;
 }
-.work-card:hover .work-hide{
-    visibility: visible;
-    transform: scaleX(1);
-    
+.work-card:hover .work-hide {
+  visibility: visible;
+  transform: scaleX(1);
 }
-.work-card:hover{
-    box-shadow: 0 0 15PX 0 grey;
+.work-card:hover {
+  box-shadow: 0 0 15px 0 grey;
 }
 /* work end */
 /* .image{
@@ -206,51 +198,146 @@ a{
     background-attachment: fixed;
 } */
 /*  */
-.headline h3::after{
-    content: "";
-    display: block;
-    width: 10%;
-    height: 2px;
-    background: #2b69da;
-    position: absolute;
-    top: 50%;
-    left: 30%;
+/* .headline h3::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: #2b69da;
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
-.headline h3::before{
-    content: "";
-    display: block;
-    width: 10%;
-    height: 2px;
-    background: #2b69da;
-    position: absolute;
-    top: 50%;
-    right: 30%;
-}
+.headline h3::before {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: #2b69da;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+} */
 
-.team-caption{
-    top: 80%;
-    border: 2px solid transparent;
-    box-shadow: 0 2px 8px grey;
-    transition: all 1s;
+.team-caption {
+  top: 80%;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px grey;
+  transition: all 1s;
 }
-.team-image:hover .team-caption{
-    top: 51%;
+.team-image:hover .team-caption {
+  top: 51%;
 }
 
 /* hover for icons to be lated */
-.social{
- left: 12.5%;   
- top: 140%;
- transition: 1s;
+.social {
+  left: 12.5%;
+  top: 140%;
+  transition: 1s;
 }
-.team-image:hover .social{
-    top: 101%;
+.team-image:hover .social {
+  top: 101%;
 }
-.social i:hover{
-    color: black;
+.social i:hover {
+  color: black;
 }
 /* prices */
-.card-price i{
-    font-size: 1.3rem;
-    color: blue;
+.card-price i {
+  font-size: 1.3rem;
+  color: blue;
+}
+
+#price ul #pills-home-tab{
+    border:2px solid black !important;
+    border: 2px solid #2b69da !important;
+    border-radius: 19px 0px 0px 20px !important;
+}
+#price ul #pills-profile-tab{
+    
+    border:2px solid black !important;
+    border: 2px solid #2b69da !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+/* subscribe */
+.subscribe-form {
+  width: 60%;
+}
+/* testimonial */
+
+/* blog */
+.blog-card-link {
+  background-color: rgb(46, 3, 3);
+  color: white;
+  transition: all 0.5s;
+}
+.blog-card .blog-img img {
+  transition: all 0.5s;
+}
+.blog-card:hover .blog-img img {
+  transform: rotate(3deg) scale(1.18);
+}
+.blog-card-link i {
+  color: white;
+}
+.blog-card a {
+  text-decoration: none;
+}
+.blog-card:hover .blog-card-link {
+  background-color: #2b69da;
+}
+.progress {
+  height: 3px !important;
+}
+.progress-bar {
+  width: 25%;
+  transition: all 0.5s;
+}
+.blog-card:hover .progress-bar {
+  width: 100%;
+}
+.blog-card-head a {
+  color: black;
+}
+.blog-card-head a:hover {
+  color: #2b69da;
+}
+.client-shadow {
+  filter: drop-shadow(0 0 0.75rem);
+}
+#purchase .btn0 {
+  background-color: rgb(255, 255, 255) !important;
+  color: #2b69da !important;
+}
+#contact-img{
+  background-image: url(../images/slider1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baner{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 20vw;
+}
+.custom-btn-right{
+  border-radius: 0 50px 50px 0 !important;
+}
+.custom-btn-right:hover{
+  background:#1A1A1A !important;
+  transition: 1s ;
+}
+.custom-btn-left{
+  border-radius: 50px 0 0 50px !important;
+}
+.custom-btn-left:hover{
+  background:#1A1A1A !important;
+  transition: 1s ;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  background:transparent !important;
+  color: white;
 }
