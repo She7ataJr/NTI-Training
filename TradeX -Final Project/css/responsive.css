@@ -3,4 +3,7 @@
         position: static;
 
     }
+    #contact-img{
+        display: none;
+    }
 }

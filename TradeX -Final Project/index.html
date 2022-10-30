@@ -87,7 +87,7 @@
     </header>
     <!---------------------------Header End  --------------------------->
     <!---------------------------Navbar Start  --------------------------->
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg bg-light sticky-to  p">
         <div class="container">
             <img src="images/Trade-X-Logo.png" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -162,16 +162,16 @@
                         </ul>
                     </li>
                     <!------------------------Mega Menue Start--------------------------->
-                    <li class="nav-item dropdown w-100">
+                    <!-- <li class="nav-item dropdown w-100">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Mega menu
                         </a>
-                        <!-- Dropdown menu -->
+                        Dropdown menu
                         <div class="dropdown-menu custom mt-0">
                             <div class="container">
                                 <div class="row ">
-                                    <div class="col-lg-4 ">
+                                    <div class="col-4 ">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Lorem ipsum
@@ -185,7 +185,7 @@
                                                 elit</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 ">
+                                    <div class="col-4 ">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Explicabo voluptas
@@ -200,7 +200,7 @@
                                                 dolor</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 mb-3 mb-md-0">
+                                    <div class="col-4 mb-3 mb-md-0">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Iste quaerato
@@ -216,6 +216,9 @@
                                 </div>
                             </div>
                         </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
 
                 </ul>
@@ -227,7 +230,7 @@
     <!---------------------------Carousel Start  --------------------------->
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="overlay">
+        <div class="overlay" id="home">
             <div class="carousel-indicators bg-danger d-flex flex-column">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -250,7 +253,8 @@
                                 explicabo quia quam delectus similique ex.</p>
                         </div>
                         <button class="btn0 overflow-hidden position-relative text-white rounded-pill">Get Start
-                            Now</button> <button
+                            Now</button> 
+                            <button
                             class=" btn1 overflow-hidden   position-relative text-white rounded-pill">Contact
                             Us</button>
                     </div>
@@ -302,6 +306,9 @@
     <section id="about">
         <div class="container py-5">
             <div class="row ">
+                
+                    <a  id="up" href="#"><i class="fa fa-arrow-up"></i></a>
+                
                 <div class="col-lg-12 py-5 d-flex justify-content-center">
                     <div class="col-lg-2 col-2  ">
                         <hr
@@ -310,7 +317,7 @@
                             class="text-primary border border-primary border-1 opacity-100 w-50 bg-primary ms-auto me-2">
                     </div>
                     <div class="col-lg-2 col-4 text-center ">
-                        <h3>About Us</h3>
+                        <p class="fs-3 text-black">About Us</p>
                     </div>
                     <div class="col-lg-2 col-2">
                         <hr class="text-primary border border-primary border-1 opacity-100 w-25 bg-primary">
@@ -358,9 +365,10 @@
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, dolore.</p>
                             </div>
                         </div>
-
+                            
                     </div>
                 </div>
+                
                 <div class="col-lg-8 offset-lg-3">
                     <div class="row">
                         <div class="col-lg-7 col-12">
@@ -392,7 +400,7 @@
                         <i class="fa fa-display"></i>
                     </div>
                     <div class="counter-caption w-75 ms-4">
-                        <h2>8000</h2>
+                        <p class="fs-3" id="counter1">0</p>
                         <p class="text-muted">total project</p>
                     </div>
                 </div>
@@ -402,7 +410,7 @@
                         <i class="fa fa-trophy "></i>
                     </div>
                     <div class="counter-caption w-75 ms-4">
-                        <h2>810</h2>
+                        <p class="fs-3" id="counter2">0</p>
                         <p class="text-muted">Won Awards</p>
                     </div>
                 </div>
@@ -412,7 +420,7 @@
                         <i class="fa fa-smile"></i>
                     </div>
                     <div class="counter-caption w-75 ms-4">
-                        <h2>2000</h2>
+                        <p class="fs-3" id="counter3">0</p>
                         <p class="text-muted">Happy Clients</p>
                     </div>
                 </div>
@@ -422,7 +430,7 @@
                         <i class="fa fa-calendar-days"></i>
                     </div>
                     <div class="counter-caption w-75 ms-4">
-                        <h2>20</h2>
+                        <p class="fs-3" id="counter4">0</p>
                         <p class="text-muted">Years Experience</p>
                     </div>
                 </div>
@@ -435,7 +443,7 @@
     <!--------------------------- Our Services Start  --------------------------->
     <section id="services" class="bg-dark text-white">
         <div class="container py-5 ">
-            <div class="row  ">
+            <div class="row g-4 ">
                 <!-- HeadLine Start -->
                 <div class="col-lg-12 col-12 py-5 d-flex justify-content-center">
                     <div class="col-lg-2 col-2 ">
@@ -445,7 +453,7 @@
                             class="text-primary border border-primary border-1 opacity-100 w-50 bg-primary ms-auto me-2">
                     </div>
                     <div class="col-lg-2 col-6 text-center ">
-                        <h3>Our Services</h3>
+                        <p class="fs-3">Our Services</p>
                     </div>
                     <div class="col-lg-2 col-2">
                         <hr class="text-primary border border-primary border-1 opacity-100 w-25 bg-primary">
@@ -466,9 +474,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">Online Marketting</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -484,9 +490,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">Web Design</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -502,9 +506,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">Grapghic Design</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -520,9 +522,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">Web Development</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -538,9 +538,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">Networking</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -556,9 +554,7 @@
                         </div>
                         <div class="caption-hide w-100 h-100 p-1 position-absolute bg-white text-black">
                             <p class="fs-3">WordPress Theme</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum similique
-                                distinctio voluptatem nulla, esse possimus. Illum asperiores adipisci libero, totam
-                                laudantium sequi saepe, eos alias necessitat.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime nobis cupiditate modi, molestiae nesciunt!</p>
                             <button class="btn0 overflow-hidden   position-relative text-white rounded-pill">Read
                                 more</button>
                         </div>
@@ -584,7 +580,7 @@
                             class="text-primary border border-primary border-1 opacity-100 w-50 bg-primary ms-auto me-2">
                     </div>
                     <div class="col-lg-2 col-6 text-center ">
-                        <h3>Our Work</h3>
+                        <p class="fs-3">Our Work</p>
                     </div>
                     <div class="col-lg-2 col-2">
                         <hr class="text-primary border border-primary border-1 opacity-100 w-25 bg-primary">
@@ -606,10 +602,16 @@
                     <div class=" work-card position-relative  ">
                         <img class="w-100 " src="images/port2-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
+                            class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                          <div class="">
                             <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                            <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                          </div>
+                            <div class="">
+                                <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
+                            </div>
+                            
+                            
                         </div>
 
                     </div>
@@ -618,32 +620,50 @@
                     <div class="work-card position-relative">
                         <img class="w-100 h-100 " src="images/computer-472016_1920-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
-                            <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                        class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                      <div class="">
+                        <p class="fs-6 ms-3">Development, Graphic Design</p>
+                        <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                      </div>
+                        <div class="">
+                            <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
                         </div>
+                        
+                        
+                    </div>
                     </div>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="work-card position-relative">
                         <img class="w-100 h-100 " src="images/office-1209640_1920-1-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
-                            <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                        class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                      <div class="">
+                        <p class="fs-6 ms-3">Development, Graphic Design</p>
+                        <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                      </div>
+                        <div class="">
+                            <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
                         </div>
+                        
+                        
+                    </div>
                     </div>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="work-card position-relative">
                         <img class="w-100 h-100 " src="images/port7-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
+                            class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                          <div class="">
                             <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                            <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                          </div>
+                            <div class="">
+                                <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -651,10 +671,16 @@
                     <div class="work-card position-relative">
                         <img class="w-100 h-100 " src="images/suit-869380_1920-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
+                            class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                          <div class="">
                             <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                            <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                          </div>
+                            <div class="">
+                                <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -662,11 +688,17 @@
                     <div class="work-card position-relative">
                         <img class="w-100 h-100 " src="images/port2-5-360x380.jpg" alt="">
                         <div
-                            class="work-hide w-75 m-auto bg-primary text-white opacity-75 d-flex flex-column  rounded-2 position-absolute ">
-                            <p class="fs-6 ms-3">Development, Graphic Design</p>
-                            <p class="fs-5 ms-3">Project Title01</p>
-                            <a href="#" class="text-white m-auto"><i class="fa fa-plus"></i></a>
+                        class="work-hide w-75 m-auto bg-primary text-white opacity-75  d-flex align-items-center justify-content-center rounded-2 position-absolute ">
+                      <div class="">
+                        <p class="fs-6 ms-3">Development, Graphic Design</p>
+                        <p class="fs-5 ms-3 d-inline-block">Project Title01</p> 
+                      </div>
+                        <div class="">
+                            <a href="#" class="text-white "><i class="fa fa-plus"></i></a>
                         </div>
+                        
+                        
+                    </div>
                     </div>
                 </div>
             </div>
@@ -681,10 +713,10 @@
     <!-- Our Creative Team  Start-->
     <section id="team" class="py-5 bg-light">
         <div class="container py-5">
-            <div class="row">
+            <div class="row g-4">
                 <div class="col-lg-12">
                     <div class="headline text-center">
-                        <h3 class="position-relative">Our Creative Team</h3>
+                        <p class="position-relative fs-3">Our Creative Team</p>
                         <p class="text-muted w-50 m-auto mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatibus tenetur aperiam earum error dolorum doloremque minima laudantium enim.</p>
                     </div>
@@ -859,7 +891,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="headline text-center">
-                        <h3 class="position-relative">Our Pricing</h3>
+                        <p class="position-relative fs-3">Our Pricing</p>
                         <p class="text-muted w-50 m-auto mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatibus tenetur aperiam earum error dolorum doloremque minima laudantium enim.</p>
                     </div>
@@ -879,7 +911,7 @@
                           </ul>
                           <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                                <div class="row">
+                                <div class="row g-4">
                                     <div class="col-lg-4">
                                         <div class="card-price border shadow-sm">
                                             <div class="card-price-head  text-center  text-black ">
@@ -989,7 +1021,7 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                                <div class="row">
+                                <div class="row g-4">
                                     <!-- First Card -->
                                     <div class="col-lg-4">
                                         <div class="card-price border shadow-sm">
@@ -1145,7 +1177,7 @@
                             class="text-primary border border-primary border-1 opacity-100 w-50 bg-primary ms-auto me-2">
                     </div>
                     <div class="col-lg-2 col-4 text-center ">
-                        <h3>testimonial</h3>
+                        <p class="fs-3">testimonial</p>
                     </div>
                     <div class="col-lg-2 col-2 offset-1 offset-sm-0">
                         <hr class="text-primary border border-primary border-1 opacity-100 w-25 bg-primary">
@@ -1240,10 +1272,10 @@
     <!-- Latest Blog Start -->
     <section id="blog" class="py-5 bg-light">
         <div class="container py-5">
-            <div class="row">
+            <div class="row g-3">
                 <div class="col-lg-12 mb-5">
                     <div class="headline text-center">
-                        <h3 class="position-relative">Our Pricing</h3>
+                        <p class="position-relative fs-3 ">Latest Blog</p>
                         <p class="text-muted w-50 m-auto mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatibus tenetur aperiam earum error dolorum doloremque minima laudantium enim.</p>
                     </div>
@@ -1357,10 +1389,10 @@
     <!-- Meet Our Clients Start -->
     <section id="clients" class="pt-5">
         <div class="container">
-            <div class="row">
+            <div class="row g-3">
                 <div class="col-lg-12 mb-5">
                     <div class="headline text-center">
-                        <h3 class="position-relative">Meet Our Clients</h3>
+                        <p class="position-relative fs-3">Meet Our Clients</p>
 
                     </div>
                 </div>
@@ -1371,52 +1403,60 @@
 
                 </div>
                 <div class="col-lg-8">
-                    <div class="col-12 row justify-content-around    ">
-                        <div class="col-4 ">
-                            <div class="test border  p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+                    <div class="row g-3">
+                        <div class="col-12 row justify-content-around    ">
+                            <!-- <div class="col-4 ">
+                                <div class="test border  p-3 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
+                            </div> -->
+                            <div class="col-lg-4 ">
+                                <div class="test border mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
-                        </div>
-                        <div class="col-lg-4 ">
-                            <div class="test border p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+                            <div class="col-lg-4 ">
+                                <div class="test border mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
-                        </div>
-
-                        <div class="col-lg-4 ">
-                            <div class="test border p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+    
+                            <div class="col-lg-4 ">
+                                <div class="test border mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
-                        </div>
-
-                        <div class="col-lg-4 ">
-                            <div class="test border  p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+    
+                            <div class="col-lg-4 ">
+                                <div class="test border  mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
-                        </div>
-
-
-                        <div class="col-lg-4 ">
-                            <div class="test border  p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+    
+    
+                            <div class="col-lg-4 ">
+                                <div class="test border  mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
-                        </div>
-
-                        <div class="col-lg-4 ">
-                            <div class="test border  p-3 ">
-                                <img class="w-100" src="images/partner-g1.png" alt="">
+    
+                            <div class="col-lg-4 ">
+                                <div class="test border  mt-4 ">
+                                    <img class="w-100" src="images/partner-g1.png" alt="">
+                                </div>
+    
                             </div>
-
+    
+    
+    
+    
                         </div>
-
-
-
-
                     </div>
                 </div>
             </div>

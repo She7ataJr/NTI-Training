@@ -23,9 +23,9 @@ header {
   transform: translateX(0px);
 }
 .dropdown-menu {
-  visibility: hidden;
+  /* visibility: hidden; */
   border: none;
-  display: block;
+  display: none;
   transform: translateX(-20px);
   transition: 0.1s;
 }
@@ -177,7 +177,7 @@ a {
 }
 
 .work-hide {
-  top: 75%;
+  top: 50%;
   left: 10%;
   /* visibility: hidden; */
   transform: scaleX(0);
@@ -226,7 +226,7 @@ a {
   transition: all 1s;
 }
 .team-image:hover .team-caption {
-  top: 51%;
+  top: 49%;
 }
 
 /* hover for icons to be lated */
@@ -308,21 +308,7 @@ a {
   background-color: rgb(255, 255, 255) !important;
   color: #2b69da !important;
 }
-#contact-img{
-  background-image: url(../images/slider1.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.baner{
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 20vw;
-}
+/* Owl carousel custmize Start */
 .custom-btn-right{
   border-radius: 0 50px 50px 0 !important;
 }
@@ -340,4 +326,61 @@ a {
 .owl-theme .owl-nav [class*="owl-"]:hover{
   background:transparent !important;
   color: white;
+}
+/* Owl Carousel end */
+#contact-img{
+  background-image: url(../images/slider1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:100% 100% ;
+  
+}
+.baner{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+}
+.link-shortcut{
+  background-color: rgba(0, 0, 0, 0.8)
+}
+/*  */
+.form-input textarea:hover{
+  border-bottom: 2px solid #2b69da;
+}
+
+.form-input input:focus{
+  border: none !important;
+  background:none !important;
+  border-bottom: 2px solid #2b69da !important;
+  box-shadow: none !important;
+}
+.form-input textarea:focus{
+  border: none !important;
+  background:none !important;
+  border-bottom: 2px solid #2b69da !important;
+  box-shadow: none !important;
+}
+#up{
+position: fixed;
+line-height: 40px;
+text-align: center;
+background-color: #0c65ed;
+font-size: 20px;
+border-radius: 20px;
+width: 40px;
+height: 40px;
+border-radius: 50px;
+color: #fff;
+bottom: 40px;
+right: 40px;
+z-index: 99;
+opacity: 0;
+transition: 0.2s;
+}
+#up:hover{
+  background-color: black;
 }
